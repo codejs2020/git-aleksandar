@@ -63,7 +63,7 @@ const srpska = 'абвгдђжзијклљмнњопрстћуфхцчџш'.spli
 
 // 11. zadatak
 
-// Obj
+// Objekat
 
 // Objekat 1
 const osoba = {
