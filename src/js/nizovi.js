@@ -23,6 +23,7 @@ const randomSlova = []
 for (let i = 0; i < 200; i++) {
   randomSlova[i] = slova2[Math.round(Math.random() * 25)]
 }
+
 // eslint-disable-next-line no-console
 console.log(randomSlova)
 // 6. zadatak
