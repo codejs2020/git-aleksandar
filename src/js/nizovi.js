@@ -13,7 +13,7 @@ const min = 1000000
 const max = 10000000
 const random = []
 for (let i = 0; i < 50; i++) {
-  random[i] = Math.round(Math.random() * (max - min))
+  random[i] = Math.round(Math.random() * (max - min + 1) + min)
 }
 // eslint-disable-next-line no-console
 console.log(random)
@@ -21,7 +21,7 @@ console.log(random)
 const slova2 = 'qwertyuiopasdfghjklzxcvbnm'.split('')
 const randomSlova = []
 for (let i = 0; i < 200; i++) {
-  randomSlova[i] = slova2[Math.round(Math.random() * 10)]
+  randomSlova[i] = slova2[Math.round(Math.random() * 25)]
 }
 // eslint-disable-next-line no-console
 console.log(randomSlova)
